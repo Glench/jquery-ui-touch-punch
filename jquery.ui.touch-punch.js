@@ -72,7 +72,7 @@
 
     // Ignore the event if another widget is already being handled
     if (touchHandled || !self._mouseCapture(event.originalEvent.changedTouches[0])) {
-      return;
+      // return;
     }
 
     // Set the flag to prevent other widgets from inheriting the touch event
