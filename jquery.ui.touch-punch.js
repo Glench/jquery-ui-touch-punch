@@ -31,7 +31,7 @@
 
     // Ignore multi-touch events
     if (event.originalEvent.touches.length > 1) {
-      return;
+      // return;
     }
 
     event.preventDefault();
